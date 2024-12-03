@@ -1,0 +1,15 @@
+run autohacker.js
+
+run swarmstat.js
+run swarmupgradenode.js
+run swarmupgradenode.js sw-5 16
+run swarmbuynode.js
+run deploy_swarm.js
+
+run scriptthreader.js h autogrow.js 300
+run scriptthreader.js h autoweak.js 300
+run scriptthreader.js h autograb.js 200
+
+run deploy_node.js myGrab6 grabber.js zer0
+run deploy_node.js myGrab6 onlygrab.js zer0
+run deploy_node.js sw onlygrab.js zer0
